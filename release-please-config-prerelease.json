@@ -1,9 +1,8 @@
 {
-  "prerelease-type": "beta",
   "versioning": "prerelease",
+  "prerelease-type": "beta",
   "prerelease": true,
   "release-type": "simple",
-  "label": "beta",
   "packages": {
     ".": {}
   }

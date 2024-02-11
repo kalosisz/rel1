@@ -1,6 +1,5 @@
 {
   "release-type": "go",
-  "label": "prod",
   "packages": {
     ".": {}
   }

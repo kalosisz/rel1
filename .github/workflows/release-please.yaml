@@ -12,12 +12,20 @@ name: release-please-uat
 jobs:
   release-please-prerelease:
     runs-on: ubuntu-latest
+    outputs:
+      release_created: ${{ steps.prerelease.outputs.release_created }}
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: prerelease
         with:
           config-file: release-please-config-prerelease.json
           manifest-file: .release-please-manifest.json
+
+  release-please-prod:
+    runs-on: ubuntu-latest
+    needs: release-please-prerelease
+    if: ${{ needs.release-please-prerelease.outputs.release_created }}
+    steps:
       - uses: google-github-actions/release-please-action@v4
         id: prod
         if: ${{ steps.prerelease.outputs.release_created }}

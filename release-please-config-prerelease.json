@@ -1,6 +1,6 @@
 {
   "prerelease-type": "beta",
-  "versioning": "prerelease",
+  "versioning": "prerelease1",
   "prerelease": true,
   "release-type": "go",
   "label": "beta",

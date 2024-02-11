@@ -2,9 +2,9 @@
   "versioning": "prerelease",
   "prerelease-type": "beta",
   "prerelease": true,
-  "include-component-in-tag": false,
   "release-type": "simple",
   "component": "beta",
+  "include-component-in-tag": false,
   "packages": {
     ".": {}
   }

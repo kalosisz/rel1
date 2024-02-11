@@ -18,12 +18,9 @@ jobs:
         with:
           config-file: release-please-config-prerelease.json
           manifest-file: .release-please-manifest.json
-
-  release-please-prerelease-prod:
-    runs-on: ubuntu-latest
-    steps:
       - uses: google-github-actions/release-please-action@v4
         id: prod
+        if: ${{ steps.prerelease.outputs.release_created }}
         with:
           config-file: release-please-config-prod.json
-          manifest-file: .release-please-manifest.json          
+          manifest-file: .release-please-manifest.json

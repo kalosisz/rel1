@@ -3,6 +3,7 @@
   "prerelease-type": "beta",
   "prerelease": true,
   "release-type": "simple",
+  "component": "beta",
   "packages": {
     ".": {}
   }

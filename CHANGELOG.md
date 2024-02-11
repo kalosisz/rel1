@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0-beta.1](https://github.com/kalosisz/rel1/compare/v1.1.0-beta...v1.1.0-beta.1) (2024-02-11)
+
+
+### Features
+
+* cda ([3db7260](https://github.com/kalosisz/rel1/commit/3db7260c8f4ad4ea2e5d947429aa3f38316f75bb))
+
 ## [1.1.0-beta](https://github.com/kalosisz/rel1/compare/v1.0.0...v1.1.0-beta) (2024-02-11)
 
 

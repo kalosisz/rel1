@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0-beta](https://github.com/kalosisz/rel1/compare/v1.0.0...v1.1.0-beta) (2024-02-11)
+
+
+### Features
+
+* ABC ([e0aa865](https://github.com/kalosisz/rel1/commit/e0aa8658e2834dc416984ff38c7432ee52efc912))
+
 ## 1.0.0 (2024-02-11)
 
 

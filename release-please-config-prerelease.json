@@ -1,0 +1,7 @@
+{
+  "prerelease-type": "beta",
+  "versioning": "prerelease",
+  "prerelease": true,
+  "release-type": "go",
+  "label": "beta"
+}

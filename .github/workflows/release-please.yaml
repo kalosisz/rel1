@@ -23,8 +23,6 @@ jobs:
 
   release-please-prod:
     runs-on: ubuntu-latest
-    needs: release-please-prerelease
-    if: ${{ !needs.release-please-prerelease.prs_created || needs.release-please-prerelease.outputs.release_created }}
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: prod

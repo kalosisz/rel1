@@ -1,4 +1,7 @@
 {
   "release-type": "go",
-  "label": "prod"
+  "label": "prod",
+  "packages": {
+    ".": {}
+  }
 }

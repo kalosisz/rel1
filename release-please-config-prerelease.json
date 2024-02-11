@@ -3,5 +3,8 @@
   "versioning": "prerelease",
   "prerelease": true,
   "release-type": "go",
-  "label": "beta"
+  "label": "beta",
+  "packages": {
+    ".": {}
+  }
 }

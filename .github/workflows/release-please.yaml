@@ -13,7 +13,7 @@ jobs:
   release-please-prerelease:
     runs-on: ubuntu-latest
     outputs:
-      release_created: ${{ steps.prerelease.outputs.release_created }}
+      prs_created: ${{ steps.prerelease.outputs.prs_created }}
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: prerelease
@@ -23,6 +23,8 @@ jobs:
 
   release-please-prod:
     runs-on: ubuntu-latest
+    needs: release-please-prerelease
+    if: ${{ needs.release-please-prerelease.outputs.prs_created == 'true' }}
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: prod

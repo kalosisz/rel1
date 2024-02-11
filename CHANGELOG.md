@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0-beta.4](https://github.com/kalosisz/rel1/compare/v1.1.0-beta.3...v1.1.0-beta.4) (2024-02-11)
+
+
+### Features
+
+* ccc ([9d6da8b](https://github.com/kalosisz/rel1/commit/9d6da8b1883d53a37b524cf5490fbd26b1871ccd))
+
 ## [1.1.0-beta.3](https://github.com/kalosisz/rel1/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2024-02-11)
 
 

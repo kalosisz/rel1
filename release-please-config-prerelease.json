@@ -1,8 +1,8 @@
 {
   "prerelease-type": "beta",
-  "versioning": "prerelease1",
+  "versioning": "prerelease",
   "prerelease": true,
-  "release-type": "go",
+  "release-type": "simple",
   "label": "beta",
   "packages": {
     ".": {}

@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.0-beta.5](https://github.com/kalosisz/rel1/compare/v1.2.0-beta.5...v2.0.0-beta.5) (2024-02-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* asd
+
+### Features
+
+* abc ([dc020c0](https://github.com/kalosisz/rel1/commit/dc020c02b5970eb77e178a6a3e59cb4e781660ba))
+* asd ([41a56a4](https://github.com/kalosisz/rel1/commit/41a56a4b4e8ef9ac49f7f3f8f84e49af67f86c2f))
+
 ## [1.2.0-beta.5](https://github.com/kalosisz/rel1/compare/v1.1.0-beta.5...v1.2.0-beta.5) (2024-02-11)
 
 

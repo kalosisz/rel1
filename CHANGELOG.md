@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0-beta.1](https://github.com/kalosisz/rel1/compare/v1.1.0-beta.1...v1.2.0-beta.1) (2024-02-11)
+
+
+### Features
+
+* aaa ([8b19fa7](https://github.com/kalosisz/rel1/commit/8b19fa7ad785fa3e8a66bec31f66caa16e9fae29))
+
 ## [1.1.0-beta.1](https://github.com/kalosisz/rel1/compare/v1.1.0-beta...v1.1.0-beta.1) (2024-02-11)
 
 
